@@ -1,0 +1,13 @@
+ALS is motor neurone disease
+
+HOW STEPHEN HAWKING SPEAK
+-communicate by using a small sensor which activated by a muscle in his cheek. use this sensor to "type" characters and numbers on his keyboard
+
+WHAT IS EPILEPSY PATIENTS?
+Generalized seizures affect the whole brain. cannot speak, talk, move
+
+EXPLANATION ON ELECTRODE IMPLANT AND HOW IT WORKS
+The duo asked willing participants to listen to speakers recite the numbers between zero and nine, and then recorded the brain signals from that interaction. Next, they trained a neural network — a program that imitates neuron structure in the human brain — to recognize patterns in the signals and translate them into robotic-sounding words using a speech synthesizer, known as a vocoder.
+
+CONCLUSION
+For now, this study introduced a method for decoding brain signals into speech. If we figure out how to accurately detect brain activity without surgery, we’ll be one step closer to not only revolutionizing speech therapy, but potentially toward bringing about brain-connected smartphones.

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="767.6015625" prefWidth="853.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.AttendanceController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Label layoutX="41.0" layoutY="82.0" text="List of Attendance">
+      <font>
+        <Font name="Arial Bold" size="30.0" />
+      </font>
+    </Label>
+    <TableView fx:id="attend" layoutX="41.0" layoutY="162.0" prefHeight="225.0" prefWidth="745.0">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="156.0" text="First Name" fx:id="fnameColumn" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="175.0" text="Last Name" fx:id="lnameColumn" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="151.0" text="Matric Number" fx:id="matricNumColumn" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="86.0" text="Group" fx:id="groupNumColumn" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="180.0" text="Major" fx:id="courseColumn" />
+      </columns>
+    </TableView>
+    <Label layoutX="41.0" layoutY="127.0" text="Attend People">
+      <font>
+        <Font name="Arial" size="25.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="41.0" layoutY="442.0" text="Not Attend People" />
+    <Button layoutX="41.0" layoutY="27.0" mnemonicParsing="false" onAction="#goToMain" text="&lt;- Go back">
+      <font>
+        <Font size="20.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Button fx:id="refresh" font="$x2" layoutX="686.0" layoutY="400.0" mnemonicParsing="false" onAction="#refresh" text="Refresh" />
+    <TableView id="attend" fx:id="notAttend" layoutX="41.0" layoutY="479.0" prefHeight="225.0" prefWidth="745.0">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="156.0" text="First Name" fx:id="fnameColumnNA" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="175.0" text="Last Name" fx:id="lnameColumnNA" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="151.0" text="Matric Number" fx:id="matricNumColumnNA" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="86.0" text="Group" fx:id="groupNumColumnNA" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="180.0" text="Major" fx:id="courseColumnNA" />
+      </columns>
+    </TableView>
+    <Button id="refresh" font="$x2" layoutX="686.0" layoutY="713.0" mnemonicParsing="false" onAction="#refreshNotAttend" text="Refresh" />
+  </children>
+</AnchorPane>
